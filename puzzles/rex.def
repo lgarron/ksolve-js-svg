@@ -1,0 +1,40 @@
+Name rex
+
+# Rex Cube
+# Lucas Garron
+# July 30, 2015
+# CENTERS U L F R B D
+# WINGS Speffz
+# EDGES: UF UL UB UR FR FL BL BR DF DL DB DR
+# Note that edge orientation is determined uniquely by piece and location.
+
+Set CENTERS 6 1
+Set WINGS 24 1
+Set EDGES 12 1
+
+Solved
+CENTERS
+1 2 3 4 5 6
+WINGS
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+EDGES
+1 2 3 4 5 6 7 8 9 10 11 12
+End
+
+Move A
+CENTERS
+2 5 3 4 1 6
+WINGS
+17 2 3 4 1 6 7 8 9 10 11 12 13 14 15 16 5 18 19 20 21 22 23 24
+EDGES
+1 7 2 4 5 6 3 8 9 10 11 12
+End
+
+Move B
+CENTERS
+2 5 3 4 1 6
+WINGS
+17 2 3 4 1 6 7 8 9 10 11 12 13 14 15 16 5 18 19 20 21 22 23 24
+EDGES
+1 7 2 4 5 6 3 8 9 10 11 12
+End
